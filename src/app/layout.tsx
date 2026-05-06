@@ -8,9 +8,9 @@ export const metadata: Metadata = {
   title: "НАБЛЮДЕКС",
   description: "Системы видеонаблюдения под ключ",
   icons: {
-    icon: "/favicon.ico",
-    shortcut: "/favicon.ico",
-    apple: "/logo.jpg",
+    icon: [{ url: "/favicon.ico", type: "image/x-icon" }],
+    shortcut: ["/favicon.ico"],
+    apple: [{ url: "/logo.jpg" }],
   },
 };
 
