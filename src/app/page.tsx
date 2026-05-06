@@ -13,11 +13,6 @@ export async function generateMetadata(): Promise<Metadata> {
   return {
     title: content.seoTitle,
     description: content.seoDescription,
-    icons: {
-      icon: "/favicon.ico",
-      shortcut: "/favicon.ico",
-      apple: "/logo.jpg",
-    },
     openGraph: {
       title: content.seoTitle,
       description: content.seoDescription,
